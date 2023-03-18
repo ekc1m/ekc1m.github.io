@@ -1,0 +1,65 @@
+.header {
+    margin-bottom: 30px !important;
+    background-color: black !important;
+    padding: 0 22px 0 0 !important;
+    border-radius: 6px !important;
+    box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.07) !important;
+}
+
+.header .header_navlink {
+    padding: 0;
+}
+
+.header .header_link {
+    font-weight: 500;
+    color: var(--main-color);
+}
+
+.header .header_link:hover {
+    color: #03DAC5;
+}
+
+.header .header_link.active {
+    font-weight: 500;
+    color: #03DAC5 !important;
+}
+
+.header .header_home {
+    background-color: black;
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    color: var(--main-color);
+}
+
+.header .header_home:hover {
+    color: #03DAC5;
+}
+
+.header .header_left {
+    margin-right: auto;
+}
+
+.header .header_right {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.header .header_right>a>.MuiSvgIcon-root {
+    font-size: 20px !important;
+    margin-right: 12px;
+    color: var(--main-color);
+}
+
+.header .header_right > a > .MuiSvgIcon-root:hover {
+    font-size: 20px !important;
+    margin-right: 12px;
+    color: #03DAC5;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(3, 218, 197, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
